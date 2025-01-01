@@ -15,7 +15,8 @@ A **Full Adder** can be constructed using two **Half Adders** and an additional 
 #### Construction Using Half Adders:
 1. **First Half Adder**: Adds \(A\) and \(B\) to produce an intermediate **Sum1** and **Carry1**.
    - Inputs: \(A, B\)
-   - Outputs: \(Sum1 = A \oplus B\), \(Carry1 = A \cdot B\)
+   - Outputs: \(Sum1 = A \![image](https://github.com/user-attachments/assets/d9833883-c40f-4140-baf7-fb23709d9230)
+ B\), \(Carry1 = A \cdot B\)
 2. **Second Half Adder**: Adds \(Sum1\) and \(Cin\) to produce the final **Sum** and an intermediate **Carry2**.
    - Inputs: \(Sum1, Cin\)
    - Outputs: \(Sum = Sum1 \oplus Cin\), \(Carry2 = Sum1 \cdot Cin\)
