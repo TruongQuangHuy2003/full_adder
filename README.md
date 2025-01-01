@@ -1,3 +1,6 @@
+Here’s a tailored introduction to a **full adder** built using **half adders** for your GitHub README:
+
+---
 
 ### Full Adder Built from Half Adders
 
@@ -15,11 +18,10 @@ A **Full Adder** can be constructed using two **Half Adders** and an additional 
 #### Construction Using Half Adders:
 1. **First Half Adder**: Adds \(A\) and \(B\) to produce an intermediate **Sum1** and **Carry1**.
    - Inputs: \(A, B\)
-   - Outputs: \(Sum1 = A \![image](https://github.com/user-attachments/assets/d9833883-c40f-4140-baf7-fb23709d9230)
- B\), \(Carry1 = A \cdot B\)
+   - Outputs: \(Sum1 = A XOR B), (Carry1 = A.B)
 2. **Second Half Adder**: Adds \(Sum1\) and \(Cin\) to produce the final **Sum** and an intermediate **Carry2**.
    - Inputs: \(Sum1, Cin\)
-   - Outputs: \(Sum = Sum1 \oplus Cin\), \(Carry2 = Sum1 \cdot Cin\)
+   - Outputs: \(Sum = Sum1 XOR Cin\), (Carry2 = Sum1.Cin)
 3. **OR Gate**: Combines \(Carry1\) and \(Carry2\) to produce the final **Cout**.
    - \(Cout = Carry1 + Carry2\)
 
@@ -44,3 +46,7 @@ A **Full Adder** can be constructed using two **Half Adders** and an additional 
 - Multi-bit addition by cascading full adders.
 - Arithmetic Logic Units (ALUs) and digital computation.
 - Scalable designs for binary addition.
+
+---
+
+Let me know if you need further customization or visual aids for your README!
